@@ -62,6 +62,8 @@ class MipsSubtarget : public MipsGenSubtargetInfo {
   // Used to avoid printing virt warnings multiple times.
   static bool VirtWarningPrinted;
 
+  static bool MIPS1WarningPrinted;
+
   // Mips architecture version
   MipsArchEnum MipsArchVersion;
 
